@@ -1,0 +1,551 @@
+Data,Sala,Profissional,Horário,Ocupada,Turno,Status,Motivo,Plano,Forma_Pagamento,Valor
+2025-07-01,Sala 1,-,08:00,Não,Manhã,Cancelada,Problema técnico,Amil,PIX,0.0
+2025-07-01,Sala 1,Bruno,09:00,Sim,Manhã,Realizada,,Unimed,Cartão Débito,109.35
+2025-07-01,Sala 1,-,10:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Particular,Cartão Débito,0.0
+2025-07-01,Sala 1,-,11:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Amil,Cartão Débito,0.0
+2025-07-01,Sala 1,Ana,12:00,Sim,Tarde,Cancelada,Outro,SulAmérica,PIX,0.0
+2025-07-01,Sala 1,-,13:00,Não,Tarde,Cancelada,Problema técnico,Bradesco,Cartão Crédito,0.0
+2025-07-01,Sala 1,-,14:00,Não,Tarde,Cancelada,Problema técnico,SulAmérica,Cartão Crédito,0.0
+2025-07-01,Sala 1,Ana,15:00,Sim,Tarde,Realizada,,SulAmérica,Espécie,265.08
+2025-07-01,Sala 1,Ana,16:00,Sim,Tarde,Realizada,,Amil,Espécie,117.38
+2025-07-01,Sala 1,-,17:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Unimed,Espécie,0.0
+2025-07-01,Sala 2,-,08:00,Não,Manhã,Cancelada,Outro,Amil,PIX,0.0
+2025-07-01,Sala 2,Carla,09:00,Sim,Manhã,Realizada,,Particular,PIX,156.16
+2025-07-01,Sala 2,-,10:00,Não,Manhã,Cancelada,Problema técnico,Bradesco,Cartão Débito,0.0
+2025-07-01,Sala 2,Carla,11:00,Sim,Manhã,Remarcada,Reagendado pelo profissional,SulAmérica,Espécie,0.0
+2025-07-01,Sala 2,Bruno,12:00,Sim,Tarde,Realizada,,Unimed,Espécie,273.7
+2025-07-01,Sala 2,Carla,13:00,Sim,Tarde,Realizada,,Unimed,PIX,168.66
+2025-07-01,Sala 2,Diego,14:00,Sim,Tarde,Realizada,,Unimed,Cartão Crédito,188.68
+2025-07-01,Sala 2,-,15:00,Não,Tarde,Cancelada,Falta do paciente,Particular,Cartão Débito,0.0
+2025-07-01,Sala 2,Diego,16:00,Sim,Tarde,Realizada,,Unimed,PIX,208.6
+2025-07-01,Sala 2,-,17:00,Não,Tarde,Cancelada,Falta do paciente,Particular,Espécie,0.0
+2025-07-01,Sala 3,Diego,08:00,Sim,Manhã,Cancelada,Reagendado pelo profissional,Unimed,PIX,0.0
+2025-07-01,Sala 3,-,09:00,Não,Manhã,Cancelada,Outro,Amil,PIX,0.0
+2025-07-01,Sala 3,-,10:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Amil,Cartão Débito,0.0
+2025-07-01,Sala 3,Carla,11:00,Sim,Manhã,Realizada,,SulAmérica,Espécie,295.31
+2025-07-01,Sala 3,Carla,12:00,Sim,Tarde,Realizada,,Unimed,Cartão Débito,152.39
+2025-07-01,Sala 3,-,13:00,Não,Tarde,Cancelada,Outro,Unimed,PIX,0.0
+2025-07-01,Sala 3,Carla,14:00,Sim,Tarde,Realizada,,Amil,Cartão Débito,163.31
+2025-07-01,Sala 3,Ana,15:00,Sim,Tarde,Realizada,,SulAmérica,PIX,205.41
+2025-07-01,Sala 3,-,16:00,Não,Tarde,Cancelada,Outro,Bradesco,Cartão Crédito,0.0
+2025-07-01,Sala 3,-,17:00,Não,Tarde,Cancelada,Problema técnico,Amil,Cartão Crédito,0.0
+2025-07-01,Sala 4,Carla,08:00,Sim,Manhã,Cancelada,Outro,Bradesco,Espécie,0.0
+2025-07-01,Sala 4,Ana,09:00,Sim,Manhã,Realizada,,Particular,Cartão Crédito,209.38
+2025-07-01,Sala 4,-,10:00,Não,Manhã,Cancelada,Outro,Bradesco,Espécie,0.0
+2025-07-01,Sala 4,Carla,11:00,Sim,Manhã,Realizada,,Amil,PIX,293.52
+2025-07-01,Sala 4,-,12:00,Não,Tarde,Cancelada,Falta do paciente,Bradesco,Cartão Débito,0.0
+2025-07-01,Sala 4,-,13:00,Não,Tarde,Cancelada,Falta do paciente,Bradesco,Cartão Débito,0.0
+2025-07-01,Sala 4,Diego,14:00,Sim,Tarde,Realizada,,Unimed,Cartão Débito,277.33
+2025-07-01,Sala 4,-,15:00,Não,Tarde,Cancelada,Falta do paciente,Particular,Cartão Débito,0.0
+2025-07-01,Sala 4,-,16:00,Não,Tarde,Cancelada,Falta do paciente,Particular,PIX,0.0
+2025-07-01,Sala 4,Diego,17:00,Sim,Tarde,Realizada,,Unimed,Espécie,231.58
+2025-07-01,Sala 5,Bruno,08:00,Sim,Manhã,Realizada,,Unimed,Espécie,156.64
+2025-07-01,Sala 5,-,09:00,Não,Manhã,Cancelada,Problema técnico,Bradesco,Cartão Crédito,0.0
+2025-07-01,Sala 5,-,10:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Particular,Cartão Crédito,0.0
+2025-07-01,Sala 5,-,11:00,Não,Manhã,Cancelada,Problema técnico,Bradesco,PIX,0.0
+2025-07-01,Sala 5,Bruno,12:00,Sim,Tarde,Realizada,,Amil,PIX,117.33
+2025-07-01,Sala 5,-,13:00,Não,Tarde,Cancelada,Problema técnico,SulAmérica,Espécie,0.0
+2025-07-01,Sala 5,-,14:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Particular,Espécie,0.0
+2025-07-01,Sala 5,-,15:00,Não,Tarde,Cancelada,Falta do paciente,Bradesco,Cartão Crédito,0.0
+2025-07-01,Sala 5,-,16:00,Não,Tarde,Cancelada,Falta do paciente,SulAmérica,PIX,0.0
+2025-07-01,Sala 5,Carla,17:00,Sim,Tarde,Realizada,,Bradesco,Cartão Crédito,157.08
+2025-07-02,Sala 1,-,08:00,Não,Manhã,Cancelada,Falta do paciente,SulAmérica,Cartão Crédito,0.0
+2025-07-02,Sala 1,-,09:00,Não,Manhã,Cancelada,Falta do paciente,Particular,Cartão Débito,0.0
+2025-07-02,Sala 1,Carla,10:00,Sim,Manhã,Realizada,,Unimed,Espécie,160.18
+2025-07-02,Sala 1,Bruno,11:00,Sim,Manhã,Realizada,,SulAmérica,Cartão Débito,294.74
+2025-07-02,Sala 1,Bruno,12:00,Sim,Tarde,Realizada,,Particular,Espécie,121.31
+2025-07-02,Sala 1,-,13:00,Não,Tarde,Cancelada,Problema técnico,SulAmérica,Cartão Débito,0.0
+2025-07-02,Sala 1,-,14:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Particular,Cartão Crédito,0.0
+2025-07-02,Sala 1,Bruno,15:00,Sim,Tarde,Remarcada,Problema técnico,Particular,PIX,0.0
+2025-07-02,Sala 1,-,16:00,Não,Tarde,Cancelada,Outro,Unimed,Espécie,0.0
+2025-07-02,Sala 1,Ana,17:00,Sim,Tarde,Realizada,,Particular,PIX,178.94
+2025-07-02,Sala 2,Bruno,08:00,Sim,Manhã,Realizada,,Amil,Espécie,143.08
+2025-07-02,Sala 2,-,09:00,Não,Manhã,Cancelada,Falta do paciente,Bradesco,Cartão Débito,0.0
+2025-07-02,Sala 2,Ana,10:00,Sim,Manhã,Realizada,,Particular,Espécie,245.34
+2025-07-02,Sala 2,-,11:00,Não,Manhã,Cancelada,Falta do paciente,Particular,Espécie,0.0
+2025-07-02,Sala 2,-,12:00,Não,Tarde,Cancelada,Outro,SulAmérica,Espécie,0.0
+2025-07-02,Sala 2,Ana,13:00,Sim,Tarde,Realizada,,SulAmérica,Cartão Débito,132.08
+2025-07-02,Sala 2,-,14:00,Não,Tarde,Cancelada,Problema técnico,Bradesco,PIX,0.0
+2025-07-02,Sala 2,Carla,15:00,Sim,Tarde,Realizada,,Unimed,PIX,213.37
+2025-07-02,Sala 2,Bruno,16:00,Sim,Tarde,Realizada,,Amil,Cartão Débito,141.66
+2025-07-02,Sala 2,-,17:00,Não,Tarde,Cancelada,Falta do paciente,SulAmérica,Cartão Crédito,0.0
+2025-07-02,Sala 3,Ana,08:00,Sim,Manhã,Realizada,,Amil,Espécie,124.37
+2025-07-02,Sala 3,-,09:00,Não,Manhã,Cancelada,Falta do paciente,SulAmérica,Cartão Débito,0.0
+2025-07-02,Sala 3,-,10:00,Não,Manhã,Cancelada,Problema técnico,SulAmérica,Cartão Crédito,0.0
+2025-07-02,Sala 3,-,11:00,Não,Manhã,Cancelada,Falta do paciente,Bradesco,Cartão Crédito,0.0
+2025-07-02,Sala 3,-,12:00,Não,Tarde,Cancelada,Problema técnico,Unimed,Cartão Crédito,0.0
+2025-07-02,Sala 3,Bruno,13:00,Sim,Tarde,Realizada,,Bradesco,Espécie,124.45
+2025-07-02,Sala 3,Ana,14:00,Sim,Tarde,Realizada,,Unimed,Cartão Débito,208.52
+2025-07-02,Sala 3,-,15:00,Não,Tarde,Cancelada,Falta do paciente,Unimed,Espécie,0.0
+2025-07-02,Sala 3,-,16:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Bradesco,Cartão Crédito,0.0
+2025-07-02,Sala 3,-,17:00,Não,Tarde,Cancelada,Problema técnico,SulAmérica,Espécie,0.0
+2025-07-02,Sala 4,Bruno,08:00,Sim,Manhã,Realizada,,Unimed,PIX,257.48
+2025-07-02,Sala 4,-,09:00,Não,Manhã,Cancelada,Falta do paciente,Particular,Cartão Crédito,0.0
+2025-07-02,Sala 4,-,10:00,Não,Manhã,Cancelada,Falta do paciente,Amil,Cartão Crédito,0.0
+2025-07-02,Sala 4,-,11:00,Não,Manhã,Cancelada,Outro,Amil,Cartão Débito,0.0
+2025-07-02,Sala 4,-,12:00,Não,Tarde,Cancelada,Falta do paciente,Particular,Cartão Débito,0.0
+2025-07-02,Sala 4,Bruno,13:00,Sim,Tarde,Realizada,,Particular,PIX,113.86
+2025-07-02,Sala 4,-,14:00,Não,Tarde,Cancelada,Outro,Unimed,PIX,0.0
+2025-07-02,Sala 4,-,15:00,Não,Tarde,Cancelada,Problema técnico,Bradesco,PIX,0.0
+2025-07-02,Sala 4,Diego,16:00,Sim,Tarde,Realizada,,Bradesco,PIX,251.77
+2025-07-02,Sala 4,-,17:00,Não,Tarde,Cancelada,Problema técnico,Bradesco,Espécie,0.0
+2025-07-02,Sala 5,-,08:00,Não,Manhã,Cancelada,Problema técnico,Unimed,Espécie,0.0
+2025-07-02,Sala 5,Ana,09:00,Sim,Manhã,Remarcada,Outro,Unimed,Espécie,0.0
+2025-07-02,Sala 5,Carla,10:00,Sim,Manhã,Realizada,,Bradesco,Cartão Débito,163.88
+2025-07-02,Sala 5,-,11:00,Não,Manhã,Cancelada,Falta do paciente,Amil,PIX,0.0
+2025-07-02,Sala 5,-,12:00,Não,Tarde,Cancelada,Problema técnico,Particular,Espécie,0.0
+2025-07-02,Sala 5,-,13:00,Não,Tarde,Cancelada,Outro,Unimed,Espécie,0.0
+2025-07-02,Sala 5,Ana,14:00,Sim,Tarde,Realizada,,Amil,PIX,248.86
+2025-07-02,Sala 5,Carla,15:00,Sim,Tarde,Cancelada,Problema técnico,SulAmérica,Espécie,0.0
+2025-07-02,Sala 5,Diego,16:00,Sim,Tarde,Cancelada,Falta do paciente,Particular,Cartão Crédito,0.0
+2025-07-02,Sala 5,-,17:00,Não,Tarde,Cancelada,Outro,Unimed,Espécie,0.0
+2025-07-03,Sala 1,-,08:00,Não,Manhã,Cancelada,Problema técnico,SulAmérica,Espécie,0.0
+2025-07-03,Sala 1,-,09:00,Não,Manhã,Cancelada,Falta do paciente,Unimed,Cartão Crédito,0.0
+2025-07-03,Sala 1,Diego,10:00,Sim,Manhã,Cancelada,Falta do paciente,Bradesco,Espécie,0.0
+2025-07-03,Sala 1,Bruno,11:00,Sim,Manhã,Realizada,,SulAmérica,Cartão Débito,213.75
+2025-07-03,Sala 1,-,12:00,Não,Tarde,Cancelada,Problema técnico,Unimed,Cartão Débito,0.0
+2025-07-03,Sala 1,Carla,13:00,Sim,Tarde,Remarcada,Reagendado pelo profissional,Bradesco,Espécie,0.0
+2025-07-03,Sala 1,-,14:00,Não,Tarde,Cancelada,Outro,Unimed,Cartão Débito,0.0
+2025-07-03,Sala 1,-,15:00,Não,Tarde,Cancelada,Falta do paciente,Particular,Espécie,0.0
+2025-07-03,Sala 1,-,16:00,Não,Tarde,Cancelada,Reagendado pelo profissional,SulAmérica,PIX,0.0
+2025-07-03,Sala 1,-,17:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Unimed,PIX,0.0
+2025-07-03,Sala 2,Carla,08:00,Sim,Manhã,Remarcada,Problema técnico,Bradesco,Cartão Crédito,0.0
+2025-07-03,Sala 2,-,09:00,Não,Manhã,Cancelada,Falta do paciente,Unimed,Espécie,0.0
+2025-07-03,Sala 2,Carla,10:00,Sim,Manhã,Realizada,,Unimed,Espécie,215.89
+2025-07-03,Sala 2,Bruno,11:00,Sim,Manhã,Cancelada,Falta do paciente,Amil,Cartão Crédito,0.0
+2025-07-03,Sala 2,-,12:00,Não,Tarde,Cancelada,Falta do paciente,Particular,Cartão Crédito,0.0
+2025-07-03,Sala 2,-,13:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Particular,Espécie,0.0
+2025-07-03,Sala 2,-,14:00,Não,Tarde,Cancelada,Outro,Bradesco,Espécie,0.0
+2025-07-03,Sala 2,-,15:00,Não,Tarde,Cancelada,Falta do paciente,Bradesco,Espécie,0.0
+2025-07-03,Sala 2,Bruno,16:00,Sim,Tarde,Realizada,,Bradesco,Cartão Crédito,122.22
+2025-07-03,Sala 2,Ana,17:00,Sim,Tarde,Realizada,,Amil,PIX,130.68
+2025-07-03,Sala 3,Carla,08:00,Sim,Manhã,Realizada,,Unimed,Cartão Débito,145.84
+2025-07-03,Sala 3,-,09:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Unimed,PIX,0.0
+2025-07-03,Sala 3,Diego,10:00,Sim,Manhã,Realizada,,Unimed,PIX,180.71
+2025-07-03,Sala 3,Diego,11:00,Sim,Manhã,Remarcada,Reagendado pelo profissional,Particular,Cartão Crédito,0.0
+2025-07-03,Sala 3,-,12:00,Não,Tarde,Cancelada,Reagendado pelo profissional,SulAmérica,Cartão Débito,0.0
+2025-07-03,Sala 3,-,13:00,Não,Tarde,Cancelada,Problema técnico,Unimed,Cartão Débito,0.0
+2025-07-03,Sala 3,Ana,14:00,Sim,Tarde,Realizada,,Unimed,Espécie,180.2
+2025-07-03,Sala 3,-,15:00,Não,Tarde,Cancelada,Problema técnico,SulAmérica,PIX,0.0
+2025-07-03,Sala 3,-,16:00,Não,Tarde,Cancelada,Falta do paciente,Amil,Cartão Crédito,0.0
+2025-07-03,Sala 3,-,17:00,Não,Tarde,Cancelada,Problema técnico,SulAmérica,PIX,0.0
+2025-07-03,Sala 4,-,08:00,Não,Manhã,Cancelada,Problema técnico,Particular,PIX,0.0
+2025-07-03,Sala 4,Diego,09:00,Sim,Manhã,Realizada,,Bradesco,Cartão Crédito,137.14
+2025-07-03,Sala 4,Diego,10:00,Sim,Manhã,Cancelada,Problema técnico,Unimed,PIX,0.0
+2025-07-03,Sala 4,Diego,11:00,Sim,Manhã,Realizada,,Unimed,Cartão Crédito,141.92
+2025-07-03,Sala 4,Carla,12:00,Sim,Tarde,Realizada,,SulAmérica,Cartão Débito,131.1
+2025-07-03,Sala 4,-,13:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Bradesco,Cartão Crédito,0.0
+2025-07-03,Sala 4,-,14:00,Não,Tarde,Cancelada,Problema técnico,Amil,Espécie,0.0
+2025-07-03,Sala 4,-,15:00,Não,Tarde,Cancelada,Falta do paciente,Amil,PIX,0.0
+2025-07-03,Sala 4,Carla,16:00,Sim,Tarde,Realizada,,Particular,Cartão Débito,294.61
+2025-07-03,Sala 4,-,17:00,Não,Tarde,Cancelada,Outro,Particular,Espécie,0.0
+2025-07-03,Sala 5,Carla,08:00,Sim,Manhã,Realizada,,Particular,Cartão Crédito,283.43
+2025-07-03,Sala 5,Ana,09:00,Sim,Manhã,Cancelada,Outro,Amil,Espécie,0.0
+2025-07-03,Sala 5,Ana,10:00,Sim,Manhã,Realizada,,Bradesco,Espécie,229.69
+2025-07-03,Sala 5,Ana,11:00,Sim,Manhã,Realizada,,SulAmérica,PIX,124.25
+2025-07-03,Sala 5,-,12:00,Não,Tarde,Cancelada,Outro,Unimed,Cartão Débito,0.0
+2025-07-03,Sala 5,Carla,13:00,Sim,Tarde,Realizada,,Bradesco,Espécie,293.64
+2025-07-03,Sala 5,-,14:00,Não,Tarde,Cancelada,Falta do paciente,Unimed,Espécie,0.0
+2025-07-03,Sala 5,Bruno,15:00,Sim,Tarde,Remarcada,Outro,Bradesco,PIX,0.0
+2025-07-03,Sala 5,Carla,16:00,Sim,Tarde,Cancelada,Problema técnico,Bradesco,Cartão Crédito,0.0
+2025-07-03,Sala 5,Diego,17:00,Sim,Tarde,Realizada,,Unimed,Cartão Crédito,282.67
+2025-07-04,Sala 1,Carla,08:00,Sim,Manhã,Realizada,,Unimed,PIX,193.44
+2025-07-04,Sala 1,-,09:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Bradesco,PIX,0.0
+2025-07-04,Sala 1,-,10:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Bradesco,Espécie,0.0
+2025-07-04,Sala 1,Bruno,11:00,Sim,Manhã,Realizada,,SulAmérica,Cartão Débito,136.53
+2025-07-04,Sala 1,-,12:00,Não,Tarde,Cancelada,Problema técnico,SulAmérica,PIX,0.0
+2025-07-04,Sala 1,Diego,13:00,Sim,Tarde,Realizada,,Unimed,Espécie,243.84
+2025-07-04,Sala 1,Ana,14:00,Sim,Tarde,Realizada,,Particular,Cartão Débito,124.75
+2025-07-04,Sala 1,-,15:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Unimed,Cartão Débito,0.0
+2025-07-04,Sala 1,-,16:00,Não,Tarde,Cancelada,Falta do paciente,SulAmérica,PIX,0.0
+2025-07-04,Sala 1,Diego,17:00,Sim,Tarde,Realizada,,Unimed,Cartão Crédito,250.33
+2025-07-04,Sala 2,Carla,08:00,Sim,Manhã,Realizada,,Particular,PIX,250.83
+2025-07-04,Sala 2,-,09:00,Não,Manhã,Cancelada,Problema técnico,SulAmérica,Cartão Crédito,0.0
+2025-07-04,Sala 2,-,10:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Amil,Espécie,0.0
+2025-07-04,Sala 2,-,11:00,Não,Manhã,Cancelada,Problema técnico,Particular,Cartão Débito,0.0
+2025-07-04,Sala 2,Ana,12:00,Sim,Tarde,Realizada,,Particular,Cartão Débito,178.43
+2025-07-04,Sala 2,-,13:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Bradesco,Espécie,0.0
+2025-07-04,Sala 2,Carla,14:00,Sim,Tarde,Remarcada,Reagendado pelo profissional,Unimed,Cartão Débito,0.0
+2025-07-04,Sala 2,-,15:00,Não,Tarde,Cancelada,Falta do paciente,Particular,Cartão Débito,0.0
+2025-07-04,Sala 2,-,16:00,Não,Tarde,Cancelada,Problema técnico,SulAmérica,Cartão Débito,0.0
+2025-07-04,Sala 2,Carla,17:00,Sim,Tarde,Realizada,,SulAmérica,Cartão Débito,214.06
+2025-07-04,Sala 3,Diego,08:00,Sim,Manhã,Realizada,,Unimed,Cartão Crédito,147.59
+2025-07-04,Sala 3,-,09:00,Não,Manhã,Cancelada,Reagendado pelo profissional,SulAmérica,Cartão Débito,0.0
+2025-07-04,Sala 3,Bruno,10:00,Sim,Manhã,Realizada,,SulAmérica,Espécie,266.12
+2025-07-04,Sala 3,-,11:00,Não,Manhã,Cancelada,Reagendado pelo profissional,SulAmérica,Cartão Crédito,0.0
+2025-07-04,Sala 3,-,12:00,Não,Tarde,Cancelada,Problema técnico,Particular,Cartão Débito,0.0
+2025-07-04,Sala 3,Ana,13:00,Sim,Tarde,Realizada,,Particular,Cartão Débito,201.63
+2025-07-04,Sala 3,Diego,14:00,Sim,Tarde,Realizada,,Unimed,Cartão Débito,162.28
+2025-07-04,Sala 3,-,15:00,Não,Tarde,Cancelada,Problema técnico,Amil,PIX,0.0
+2025-07-04,Sala 3,-,16:00,Não,Tarde,Cancelada,Falta do paciente,SulAmérica,Cartão Crédito,0.0
+2025-07-04,Sala 3,-,17:00,Não,Tarde,Cancelada,Outro,SulAmérica,Cartão Débito,0.0
+2025-07-04,Sala 4,Diego,08:00,Sim,Manhã,Cancelada,Falta do paciente,Bradesco,Cartão Crédito,0.0
+2025-07-04,Sala 4,-,09:00,Não,Manhã,Cancelada,Outro,SulAmérica,Cartão Débito,0.0
+2025-07-04,Sala 4,-,10:00,Não,Manhã,Cancelada,Problema técnico,Particular,Cartão Crédito,0.0
+2025-07-04,Sala 4,Bruno,11:00,Sim,Manhã,Cancelada,Reagendado pelo profissional,Particular,Espécie,0.0
+2025-07-04,Sala 4,Diego,12:00,Sim,Tarde,Remarcada,Reagendado pelo profissional,Particular,PIX,0.0
+2025-07-04,Sala 4,Ana,13:00,Sim,Tarde,Realizada,,Bradesco,Espécie,269.8
+2025-07-04,Sala 4,-,14:00,Não,Tarde,Cancelada,Outro,Bradesco,Cartão Crédito,0.0
+2025-07-04,Sala 4,Ana,15:00,Sim,Tarde,Realizada,,Unimed,Cartão Débito,256.78
+2025-07-04,Sala 4,Diego,16:00,Sim,Tarde,Realizada,,Bradesco,Cartão Crédito,135.87
+2025-07-04,Sala 4,Bruno,17:00,Sim,Tarde,Realizada,,Bradesco,PIX,155.92
+2025-07-04,Sala 5,-,08:00,Não,Manhã,Cancelada,Outro,Particular,Espécie,0.0
+2025-07-04,Sala 5,-,09:00,Não,Manhã,Cancelada,Reagendado pelo profissional,SulAmérica,Espécie,0.0
+2025-07-04,Sala 5,-,10:00,Não,Manhã,Cancelada,Outro,SulAmérica,PIX,0.0
+2025-07-04,Sala 5,Diego,11:00,Sim,Manhã,Realizada,,Particular,Cartão Crédito,256.58
+2025-07-04,Sala 5,-,12:00,Não,Tarde,Cancelada,Outro,Unimed,Cartão Débito,0.0
+2025-07-04,Sala 5,Bruno,13:00,Sim,Tarde,Realizada,,Unimed,Cartão Crédito,238.98
+2025-07-04,Sala 5,Bruno,14:00,Sim,Tarde,Realizada,,Unimed,Cartão Crédito,273.85
+2025-07-04,Sala 5,Bruno,15:00,Sim,Tarde,Remarcada,Reagendado pelo profissional,Particular,PIX,0.0
+2025-07-04,Sala 5,-,16:00,Não,Tarde,Cancelada,Outro,Particular,Espécie,0.0
+2025-07-04,Sala 5,Diego,17:00,Sim,Tarde,Cancelada,Falta do paciente,Amil,Espécie,0.0
+2025-07-07,Sala 1,Carla,08:00,Sim,Manhã,Realizada,,Unimed,PIX,124.21
+2025-07-07,Sala 1,Bruno,09:00,Sim,Manhã,Realizada,,SulAmérica,Cartão Débito,262.75
+2025-07-07,Sala 1,-,10:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Unimed,Espécie,0.0
+2025-07-07,Sala 1,Bruno,11:00,Sim,Manhã,Remarcada,Reagendado pelo profissional,SulAmérica,Cartão Débito,0.0
+2025-07-07,Sala 1,Ana,12:00,Sim,Tarde,Realizada,,Amil,Cartão Débito,278.68
+2025-07-07,Sala 1,-,13:00,Não,Tarde,Cancelada,Outro,Amil,Espécie,0.0
+2025-07-07,Sala 1,-,14:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Unimed,Cartão Débito,0.0
+2025-07-07,Sala 1,Ana,15:00,Sim,Tarde,Remarcada,Problema técnico,Unimed,Cartão Crédito,0.0
+2025-07-07,Sala 1,Ana,16:00,Sim,Tarde,Realizada,,Particular,Espécie,183.47
+2025-07-07,Sala 1,Diego,17:00,Sim,Tarde,Remarcada,Falta do paciente,Particular,Cartão Crédito,0.0
+2025-07-07,Sala 2,-,08:00,Não,Manhã,Cancelada,Outro,Amil,Espécie,0.0
+2025-07-07,Sala 2,Diego,09:00,Sim,Manhã,Remarcada,Reagendado pelo profissional,Unimed,Cartão Débito,0.0
+2025-07-07,Sala 2,-,10:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Unimed,Cartão Débito,0.0
+2025-07-07,Sala 2,-,11:00,Não,Manhã,Cancelada,Problema técnico,Particular,PIX,0.0
+2025-07-07,Sala 2,-,12:00,Não,Tarde,Cancelada,Reagendado pelo profissional,SulAmérica,Espécie,0.0
+2025-07-07,Sala 2,Diego,13:00,Sim,Tarde,Realizada,,Unimed,Cartão Débito,100.84
+2025-07-07,Sala 2,Bruno,14:00,Sim,Tarde,Cancelada,Problema técnico,Bradesco,Espécie,0.0
+2025-07-07,Sala 2,Ana,15:00,Sim,Tarde,Realizada,,SulAmérica,PIX,264.95
+2025-07-07,Sala 2,Carla,16:00,Sim,Tarde,Realizada,,SulAmérica,Espécie,100.38
+2025-07-07,Sala 2,-,17:00,Não,Tarde,Cancelada,Outro,SulAmérica,Espécie,0.0
+2025-07-07,Sala 3,-,08:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Amil,PIX,0.0
+2025-07-07,Sala 3,-,09:00,Não,Manhã,Cancelada,Outro,Unimed,Espécie,0.0
+2025-07-07,Sala 3,Bruno,10:00,Sim,Manhã,Remarcada,Problema técnico,Particular,Espécie,0.0
+2025-07-07,Sala 3,-,11:00,Não,Manhã,Cancelada,Problema técnico,Particular,Espécie,0.0
+2025-07-07,Sala 3,-,12:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Particular,Espécie,0.0
+2025-07-07,Sala 3,-,13:00,Não,Tarde,Cancelada,Problema técnico,Bradesco,Cartão Débito,0.0
+2025-07-07,Sala 3,Bruno,14:00,Sim,Tarde,Realizada,,Unimed,Cartão Crédito,101.5
+2025-07-07,Sala 3,Bruno,15:00,Sim,Tarde,Cancelada,Problema técnico,Particular,PIX,0.0
+2025-07-07,Sala 3,-,16:00,Não,Tarde,Cancelada,Problema técnico,SulAmérica,Cartão Débito,0.0
+2025-07-07,Sala 3,-,17:00,Não,Tarde,Cancelada,Problema técnico,Bradesco,Cartão Crédito,0.0
+2025-07-07,Sala 4,Bruno,08:00,Sim,Manhã,Realizada,,Particular,PIX,109.96
+2025-07-07,Sala 4,Ana,09:00,Sim,Manhã,Realizada,,Particular,PIX,117.51
+2025-07-07,Sala 4,Diego,10:00,Sim,Manhã,Realizada,,Unimed,Cartão Crédito,195.54
+2025-07-07,Sala 4,-,11:00,Não,Manhã,Cancelada,Outro,SulAmérica,Espécie,0.0
+2025-07-07,Sala 4,-,12:00,Não,Tarde,Cancelada,Problema técnico,Amil,PIX,0.0
+2025-07-07,Sala 4,-,13:00,Não,Tarde,Cancelada,Problema técnico,SulAmérica,Cartão Crédito,0.0
+2025-07-07,Sala 4,-,14:00,Não,Tarde,Cancelada,Problema técnico,Amil,Cartão Débito,0.0
+2025-07-07,Sala 4,-,15:00,Não,Tarde,Cancelada,Reagendado pelo profissional,SulAmérica,Espécie,0.0
+2025-07-07,Sala 4,Bruno,16:00,Sim,Tarde,Realizada,,Bradesco,Cartão Débito,231.18
+2025-07-07,Sala 4,Bruno,17:00,Sim,Tarde,Remarcada,Outro,Unimed,Cartão Crédito,0.0
+2025-07-07,Sala 5,Diego,08:00,Sim,Manhã,Realizada,,Unimed,Cartão Crédito,202.6
+2025-07-07,Sala 5,-,09:00,Não,Manhã,Cancelada,Falta do paciente,Particular,Cartão Débito,0.0
+2025-07-07,Sala 5,-,10:00,Não,Manhã,Cancelada,Problema técnico,Bradesco,PIX,0.0
+2025-07-07,Sala 5,Ana,11:00,Sim,Manhã,Realizada,,Amil,Cartão Crédito,201.49
+2025-07-07,Sala 5,Ana,12:00,Sim,Tarde,Realizada,,SulAmérica,Cartão Crédito,175.04
+2025-07-07,Sala 5,-,13:00,Não,Tarde,Cancelada,Problema técnico,Amil,Espécie,0.0
+2025-07-07,Sala 5,-,14:00,Não,Tarde,Cancelada,Outro,Particular,Espécie,0.0
+2025-07-07,Sala 5,Ana,15:00,Sim,Tarde,Cancelada,Outro,Bradesco,Cartão Crédito,0.0
+2025-07-07,Sala 5,-,16:00,Não,Tarde,Cancelada,Problema técnico,Unimed,Espécie,0.0
+2025-07-07,Sala 5,Bruno,17:00,Sim,Tarde,Realizada,,Amil,PIX,146.0
+2025-07-08,Sala 1,Carla,08:00,Sim,Manhã,Realizada,,Unimed,Cartão Débito,211.64
+2025-07-08,Sala 1,-,09:00,Não,Manhã,Cancelada,Falta do paciente,Bradesco,Cartão Crédito,0.0
+2025-07-08,Sala 1,Bruno,10:00,Sim,Manhã,Realizada,,SulAmérica,Espécie,241.06
+2025-07-08,Sala 1,Carla,11:00,Sim,Manhã,Realizada,,Particular,Cartão Crédito,251.04
+2025-07-08,Sala 1,-,12:00,Não,Tarde,Cancelada,Outro,Particular,Espécie,0.0
+2025-07-08,Sala 1,Carla,13:00,Sim,Tarde,Realizada,,Particular,PIX,150.77
+2025-07-08,Sala 1,-,14:00,Não,Tarde,Cancelada,Problema técnico,Bradesco,PIX,0.0
+2025-07-08,Sala 1,-,15:00,Não,Tarde,Cancelada,Outro,Particular,Cartão Crédito,0.0
+2025-07-08,Sala 1,Ana,16:00,Sim,Tarde,Realizada,,Unimed,Cartão Crédito,103.36
+2025-07-08,Sala 1,-,17:00,Não,Tarde,Cancelada,Outro,Bradesco,PIX,0.0
+2025-07-08,Sala 2,Carla,08:00,Sim,Manhã,Realizada,,Amil,Espécie,250.08
+2025-07-08,Sala 2,Diego,09:00,Sim,Manhã,Realizada,,Bradesco,Cartão Crédito,223.07
+2025-07-08,Sala 2,Diego,10:00,Sim,Manhã,Realizada,,SulAmérica,Cartão Crédito,199.56
+2025-07-08,Sala 2,-,11:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Bradesco,Espécie,0.0
+2025-07-08,Sala 2,Bruno,12:00,Sim,Tarde,Realizada,,Particular,Espécie,245.67
+2025-07-08,Sala 2,Diego,13:00,Sim,Tarde,Realizada,,Amil,Cartão Crédito,165.38
+2025-07-08,Sala 2,-,14:00,Não,Tarde,Cancelada,Problema técnico,Bradesco,Espécie,0.0
+2025-07-08,Sala 2,Carla,15:00,Sim,Tarde,Realizada,,SulAmérica,Espécie,259.48
+2025-07-08,Sala 2,Bruno,16:00,Sim,Tarde,Realizada,,Amil,PIX,149.67
+2025-07-08,Sala 2,Bruno,17:00,Sim,Tarde,Realizada,,Bradesco,Espécie,169.41
+2025-07-08,Sala 3,-,08:00,Não,Manhã,Cancelada,Problema técnico,Particular,Cartão Crédito,0.0
+2025-07-08,Sala 3,Bruno,09:00,Sim,Manhã,Realizada,,SulAmérica,Espécie,167.3
+2025-07-08,Sala 3,-,10:00,Não,Manhã,Cancelada,Outro,Unimed,Cartão Débito,0.0
+2025-07-08,Sala 3,-,11:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Unimed,Cartão Crédito,0.0
+2025-07-08,Sala 3,-,12:00,Não,Tarde,Cancelada,Problema técnico,Amil,Cartão Crédito,0.0
+2025-07-08,Sala 3,Ana,13:00,Sim,Tarde,Cancelada,Falta do paciente,Bradesco,PIX,0.0
+2025-07-08,Sala 3,Bruno,14:00,Sim,Tarde,Cancelada,Problema técnico,Bradesco,Cartão Crédito,0.0
+2025-07-08,Sala 3,Diego,15:00,Sim,Tarde,Realizada,,SulAmérica,Cartão Crédito,169.07
+2025-07-08,Sala 3,Bruno,16:00,Sim,Tarde,Realizada,,Particular,PIX,274.55
+2025-07-08,Sala 3,-,17:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Amil,Espécie,0.0
+2025-07-08,Sala 4,-,08:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Amil,Espécie,0.0
+2025-07-08,Sala 4,Ana,09:00,Sim,Manhã,Realizada,,Unimed,Cartão Débito,267.88
+2025-07-08,Sala 4,-,10:00,Não,Manhã,Cancelada,Outro,SulAmérica,Cartão Débito,0.0
+2025-07-08,Sala 4,-,11:00,Não,Manhã,Cancelada,Problema técnico,Bradesco,PIX,0.0
+2025-07-08,Sala 4,-,12:00,Não,Tarde,Cancelada,Outro,Unimed,Cartão Crédito,0.0
+2025-07-08,Sala 4,Ana,13:00,Sim,Tarde,Realizada,,Amil,Cartão Débito,128.1
+2025-07-08,Sala 4,Diego,14:00,Sim,Tarde,Realizada,,Bradesco,Cartão Crédito,275.05
+2025-07-08,Sala 4,Diego,15:00,Sim,Tarde,Remarcada,Falta do paciente,Particular,Cartão Crédito,0.0
+2025-07-08,Sala 4,-,16:00,Não,Tarde,Cancelada,Falta do paciente,Unimed,Espécie,0.0
+2025-07-08,Sala 4,Diego,17:00,Sim,Tarde,Realizada,,Particular,Cartão Débito,181.45
+2025-07-08,Sala 5,Bruno,08:00,Sim,Manhã,Remarcada,Falta do paciente,Particular,Cartão Débito,0.0
+2025-07-08,Sala 5,Diego,09:00,Sim,Manhã,Realizada,,Amil,Cartão Crédito,149.44
+2025-07-08,Sala 5,-,10:00,Não,Manhã,Cancelada,Falta do paciente,Bradesco,Espécie,0.0
+2025-07-08,Sala 5,Diego,11:00,Sim,Manhã,Realizada,,SulAmérica,Cartão Crédito,219.18
+2025-07-08,Sala 5,-,12:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Amil,Espécie,0.0
+2025-07-08,Sala 5,-,13:00,Não,Tarde,Cancelada,Falta do paciente,Unimed,Cartão Crédito,0.0
+2025-07-08,Sala 5,-,14:00,Não,Tarde,Cancelada,Falta do paciente,SulAmérica,PIX,0.0
+2025-07-08,Sala 5,Carla,15:00,Sim,Tarde,Cancelada,Falta do paciente,Bradesco,PIX,0.0
+2025-07-08,Sala 5,Bruno,16:00,Sim,Tarde,Cancelada,Reagendado pelo profissional,Amil,Espécie,0.0
+2025-07-08,Sala 5,-,17:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Amil,Cartão Crédito,0.0
+2025-07-09,Sala 1,-,08:00,Não,Manhã,Cancelada,Outro,Bradesco,Cartão Crédito,0.0
+2025-07-09,Sala 1,Bruno,09:00,Sim,Manhã,Realizada,,Unimed,Cartão Crédito,239.42
+2025-07-09,Sala 1,-,10:00,Não,Manhã,Cancelada,Problema técnico,Unimed,Espécie,0.0
+2025-07-09,Sala 1,-,11:00,Não,Manhã,Cancelada,Falta do paciente,Bradesco,Cartão Débito,0.0
+2025-07-09,Sala 1,-,12:00,Não,Tarde,Cancelada,Falta do paciente,Unimed,Cartão Débito,0.0
+2025-07-09,Sala 1,Diego,13:00,Sim,Tarde,Realizada,,Unimed,Espécie,197.96
+2025-07-09,Sala 1,Ana,14:00,Sim,Tarde,Realizada,,Amil,Espécie,117.98
+2025-07-09,Sala 1,Carla,15:00,Sim,Tarde,Realizada,,Particular,Cartão Crédito,117.59
+2025-07-09,Sala 1,Bruno,16:00,Sim,Tarde,Realizada,,Amil,Cartão Crédito,118.48
+2025-07-09,Sala 1,-,17:00,Não,Tarde,Cancelada,Falta do paciente,Amil,Cartão Débito,0.0
+2025-07-09,Sala 2,Carla,08:00,Sim,Manhã,Remarcada,Reagendado pelo profissional,SulAmérica,Espécie,0.0
+2025-07-09,Sala 2,-,09:00,Não,Manhã,Cancelada,Falta do paciente,SulAmérica,Espécie,0.0
+2025-07-09,Sala 2,-,10:00,Não,Manhã,Cancelada,Problema técnico,Bradesco,Espécie,0.0
+2025-07-09,Sala 2,-,11:00,Não,Manhã,Cancelada,Outro,Bradesco,Espécie,0.0
+2025-07-09,Sala 2,-,12:00,Não,Tarde,Cancelada,Outro,Particular,Cartão Crédito,0.0
+2025-07-09,Sala 2,Ana,13:00,Sim,Tarde,Realizada,,SulAmérica,PIX,145.47
+2025-07-09,Sala 2,-,14:00,Não,Tarde,Cancelada,Problema técnico,Amil,Cartão Débito,0.0
+2025-07-09,Sala 2,Bruno,15:00,Sim,Tarde,Realizada,,Particular,PIX,231.96
+2025-07-09,Sala 2,Ana,16:00,Sim,Tarde,Realizada,,SulAmérica,Espécie,125.34
+2025-07-09,Sala 2,Carla,17:00,Sim,Tarde,Realizada,,SulAmérica,Espécie,121.07
+2025-07-09,Sala 3,-,08:00,Não,Manhã,Cancelada,Outro,Particular,PIX,0.0
+2025-07-09,Sala 3,-,09:00,Não,Manhã,Cancelada,Outro,Amil,Cartão Crédito,0.0
+2025-07-09,Sala 3,-,10:00,Não,Manhã,Cancelada,Problema técnico,Bradesco,Cartão Crédito,0.0
+2025-07-09,Sala 3,-,11:00,Não,Manhã,Cancelada,Outro,SulAmérica,Cartão Crédito,0.0
+2025-07-09,Sala 3,-,12:00,Não,Tarde,Cancelada,Outro,Particular,Cartão Débito,0.0
+2025-07-09,Sala 3,Ana,13:00,Sim,Tarde,Realizada,,Amil,Espécie,125.65
+2025-07-09,Sala 3,Diego,14:00,Sim,Tarde,Realizada,,Particular,Espécie,260.41
+2025-07-09,Sala 3,-,15:00,Não,Tarde,Cancelada,Outro,SulAmérica,Cartão Crédito,0.0
+2025-07-09,Sala 3,-,16:00,Não,Tarde,Cancelada,Problema técnico,SulAmérica,Cartão Débito,0.0
+2025-07-09,Sala 3,Carla,17:00,Sim,Tarde,Remarcada,Problema técnico,Particular,Cartão Crédito,0.0
+2025-07-09,Sala 4,-,08:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Unimed,PIX,0.0
+2025-07-09,Sala 4,-,09:00,Não,Manhã,Cancelada,Reagendado pelo profissional,SulAmérica,Espécie,0.0
+2025-07-09,Sala 4,Diego,10:00,Sim,Manhã,Realizada,,Unimed,Cartão Crédito,107.14
+2025-07-09,Sala 4,Carla,11:00,Sim,Manhã,Realizada,,Amil,Espécie,181.02
+2025-07-09,Sala 4,-,12:00,Não,Tarde,Cancelada,Outro,SulAmérica,Espécie,0.0
+2025-07-09,Sala 4,-,13:00,Não,Tarde,Cancelada,Outro,Bradesco,Cartão Débito,0.0
+2025-07-09,Sala 4,-,14:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Amil,PIX,0.0
+2025-07-09,Sala 4,Bruno,15:00,Sim,Tarde,Remarcada,Reagendado pelo profissional,Particular,Cartão Crédito,0.0
+2025-07-09,Sala 4,-,16:00,Não,Tarde,Cancelada,Falta do paciente,Unimed,PIX,0.0
+2025-07-09,Sala 4,-,17:00,Não,Tarde,Cancelada,Reagendado pelo profissional,SulAmérica,Espécie,0.0
+2025-07-09,Sala 5,-,08:00,Não,Manhã,Cancelada,Outro,Unimed,Cartão Débito,0.0
+2025-07-09,Sala 5,Diego,09:00,Sim,Manhã,Realizada,,Particular,Espécie,163.21
+2025-07-09,Sala 5,-,10:00,Não,Manhã,Cancelada,Outro,Unimed,Cartão Crédito,0.0
+2025-07-09,Sala 5,Carla,11:00,Sim,Manhã,Realizada,,Amil,PIX,104.4
+2025-07-09,Sala 5,Bruno,12:00,Sim,Tarde,Remarcada,Problema técnico,Amil,Espécie,0.0
+2025-07-09,Sala 5,Carla,13:00,Sim,Tarde,Realizada,,Bradesco,PIX,221.85
+2025-07-09,Sala 5,Ana,14:00,Sim,Tarde,Realizada,,Unimed,Cartão Débito,141.62
+2025-07-09,Sala 5,Bruno,15:00,Sim,Tarde,Realizada,,Amil,PIX,216.61
+2025-07-09,Sala 5,-,16:00,Não,Tarde,Cancelada,Falta do paciente,Particular,Espécie,0.0
+2025-07-09,Sala 5,Carla,17:00,Sim,Tarde,Realizada,,Unimed,Cartão Crédito,129.31
+2025-07-10,Sala 1,-,08:00,Não,Manhã,Cancelada,Problema técnico,Bradesco,PIX,0.0
+2025-07-10,Sala 1,Diego,09:00,Sim,Manhã,Remarcada,Outro,Unimed,Cartão Crédito,0.0
+2025-07-10,Sala 1,Diego,10:00,Sim,Manhã,Realizada,,Particular,PIX,261.5
+2025-07-10,Sala 1,Carla,11:00,Sim,Manhã,Realizada,,Amil,PIX,132.17
+2025-07-10,Sala 1,Carla,12:00,Sim,Tarde,Realizada,,Bradesco,Cartão Crédito,101.62
+2025-07-10,Sala 1,-,13:00,Não,Tarde,Cancelada,Outro,Bradesco,PIX,0.0
+2025-07-10,Sala 1,Carla,14:00,Sim,Tarde,Realizada,,Unimed,Espécie,179.75
+2025-07-10,Sala 1,-,15:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Particular,Espécie,0.0
+2025-07-10,Sala 1,Ana,16:00,Sim,Tarde,Remarcada,Falta do paciente,SulAmérica,Cartão Débito,0.0
+2025-07-10,Sala 1,Ana,17:00,Sim,Tarde,Realizada,,Bradesco,Cartão Crédito,193.91
+2025-07-10,Sala 2,Ana,08:00,Sim,Manhã,Realizada,,Particular,Cartão Crédito,201.95
+2025-07-10,Sala 2,-,09:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Unimed,Espécie,0.0
+2025-07-10,Sala 2,Carla,10:00,Sim,Manhã,Realizada,,Amil,PIX,174.69
+2025-07-10,Sala 2,Bruno,11:00,Sim,Manhã,Realizada,,SulAmérica,Cartão Crédito,208.78
+2025-07-10,Sala 2,-,12:00,Não,Tarde,Cancelada,Problema técnico,SulAmérica,PIX,0.0
+2025-07-10,Sala 2,Ana,13:00,Sim,Tarde,Cancelada,Reagendado pelo profissional,Unimed,Espécie,0.0
+2025-07-10,Sala 2,-,14:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Unimed,Espécie,0.0
+2025-07-10,Sala 2,Carla,15:00,Sim,Tarde,Realizada,,Amil,Cartão Crédito,124.21
+2025-07-10,Sala 2,Diego,16:00,Sim,Tarde,Realizada,,Particular,Cartão Débito,298.33
+2025-07-10,Sala 2,-,17:00,Não,Tarde,Cancelada,Falta do paciente,Particular,Espécie,0.0
+2025-07-10,Sala 3,-,08:00,Não,Manhã,Cancelada,Outro,Amil,PIX,0.0
+2025-07-10,Sala 3,Carla,09:00,Sim,Manhã,Remarcada,Problema técnico,Bradesco,Espécie,0.0
+2025-07-10,Sala 3,Bruno,10:00,Sim,Manhã,Remarcada,Problema técnico,Unimed,PIX,0.0
+2025-07-10,Sala 3,-,11:00,Não,Manhã,Cancelada,Problema técnico,Particular,Espécie,0.0
+2025-07-10,Sala 3,Bruno,12:00,Sim,Tarde,Cancelada,Problema técnico,Bradesco,Cartão Débito,0.0
+2025-07-10,Sala 3,Bruno,13:00,Sim,Tarde,Realizada,,Bradesco,PIX,103.2
+2025-07-10,Sala 3,-,14:00,Não,Tarde,Cancelada,Outro,Particular,PIX,0.0
+2025-07-10,Sala 3,Diego,15:00,Sim,Tarde,Realizada,,Bradesco,PIX,110.22
+2025-07-10,Sala 3,Ana,16:00,Sim,Tarde,Remarcada,Problema técnico,Amil,Cartão Crédito,0.0
+2025-07-10,Sala 3,Carla,17:00,Sim,Tarde,Realizada,,Particular,Espécie,213.98
+2025-07-10,Sala 4,-,08:00,Não,Manhã,Cancelada,Problema técnico,SulAmérica,Cartão Débito,0.0
+2025-07-10,Sala 4,-,09:00,Não,Manhã,Cancelada,Outro,SulAmérica,Cartão Crédito,0.0
+2025-07-10,Sala 4,Diego,10:00,Sim,Manhã,Realizada,,Unimed,PIX,212.61
+2025-07-10,Sala 4,-,11:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Bradesco,PIX,0.0
+2025-07-10,Sala 4,Ana,12:00,Sim,Tarde,Realizada,,Amil,Cartão Crédito,129.15
+2025-07-10,Sala 4,-,13:00,Não,Tarde,Cancelada,Outro,Bradesco,Espécie,0.0
+2025-07-10,Sala 4,-,14:00,Não,Tarde,Cancelada,Falta do paciente,Amil,Cartão Débito,0.0
+2025-07-10,Sala 4,-,15:00,Não,Tarde,Cancelada,Problema técnico,Particular,Cartão Crédito,0.0
+2025-07-10,Sala 4,-,16:00,Não,Tarde,Cancelada,Falta do paciente,Unimed,PIX,0.0
+2025-07-10,Sala 4,-,17:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Amil,Espécie,0.0
+2025-07-10,Sala 5,Carla,08:00,Sim,Manhã,Cancelada,Falta do paciente,Unimed,Cartão Crédito,0.0
+2025-07-10,Sala 5,Diego,09:00,Sim,Manhã,Realizada,,Particular,PIX,118.88
+2025-07-10,Sala 5,-,10:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Unimed,PIX,0.0
+2025-07-10,Sala 5,-,11:00,Não,Manhã,Cancelada,Problema técnico,SulAmérica,Cartão Crédito,0.0
+2025-07-10,Sala 5,Carla,12:00,Sim,Tarde,Cancelada,Outro,Amil,Cartão Crédito,0.0
+2025-07-10,Sala 5,-,13:00,Não,Tarde,Cancelada,Outro,Amil,Cartão Crédito,0.0
+2025-07-10,Sala 5,-,14:00,Não,Tarde,Cancelada,Outro,Particular,PIX,0.0
+2025-07-10,Sala 5,-,15:00,Não,Tarde,Cancelada,Outro,Amil,PIX,0.0
+2025-07-10,Sala 5,-,16:00,Não,Tarde,Cancelada,Problema técnico,Bradesco,Cartão Crédito,0.0
+2025-07-10,Sala 5,Diego,17:00,Sim,Tarde,Cancelada,Problema técnico,Bradesco,Espécie,0.0
+2025-07-11,Sala 1,-,08:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Particular,Espécie,0.0
+2025-07-11,Sala 1,Bruno,09:00,Sim,Manhã,Realizada,,Particular,Cartão Crédito,252.11
+2025-07-11,Sala 1,Diego,10:00,Sim,Manhã,Realizada,,Bradesco,Cartão Débito,112.8
+2025-07-11,Sala 1,Diego,11:00,Sim,Manhã,Realizada,,Unimed,Espécie,133.91
+2025-07-11,Sala 1,-,12:00,Não,Tarde,Cancelada,Problema técnico,Amil,Espécie,0.0
+2025-07-11,Sala 1,Ana,13:00,Sim,Tarde,Cancelada,Problema técnico,Unimed,Cartão Débito,0.0
+2025-07-11,Sala 1,Ana,14:00,Sim,Tarde,Realizada,,SulAmérica,Espécie,218.37
+2025-07-11,Sala 1,-,15:00,Não,Tarde,Cancelada,Falta do paciente,SulAmérica,Cartão Crédito,0.0
+2025-07-11,Sala 1,Diego,16:00,Sim,Tarde,Realizada,,Bradesco,Cartão Crédito,129.49
+2025-07-11,Sala 1,Ana,17:00,Sim,Tarde,Realizada,,Amil,PIX,136.94
+2025-07-11,Sala 2,-,08:00,Não,Manhã,Cancelada,Outro,Bradesco,Espécie,0.0
+2025-07-11,Sala 2,Carla,09:00,Sim,Manhã,Realizada,,Amil,Cartão Débito,162.63
+2025-07-11,Sala 2,Ana,10:00,Sim,Manhã,Realizada,,Unimed,PIX,149.42
+2025-07-11,Sala 2,Ana,11:00,Sim,Manhã,Cancelada,Problema técnico,Unimed,PIX,0.0
+2025-07-11,Sala 2,-,12:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Amil,Cartão Crédito,0.0
+2025-07-11,Sala 2,-,13:00,Não,Tarde,Cancelada,Outro,SulAmérica,PIX,0.0
+2025-07-11,Sala 2,Diego,14:00,Sim,Tarde,Realizada,,SulAmérica,PIX,265.55
+2025-07-11,Sala 2,-,15:00,Não,Tarde,Cancelada,Outro,Bradesco,Espécie,0.0
+2025-07-11,Sala 2,Bruno,16:00,Sim,Tarde,Realizada,,Unimed,Espécie,124.86
+2025-07-11,Sala 2,-,17:00,Não,Tarde,Cancelada,Outro,Amil,Cartão Crédito,0.0
+2025-07-11,Sala 3,Bruno,08:00,Sim,Manhã,Realizada,,Amil,PIX,216.62
+2025-07-11,Sala 3,-,09:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Unimed,Espécie,0.0
+2025-07-11,Sala 3,Carla,10:00,Sim,Manhã,Realizada,,Bradesco,Cartão Crédito,170.09
+2025-07-11,Sala 3,-,11:00,Não,Manhã,Cancelada,Outro,SulAmérica,Espécie,0.0
+2025-07-11,Sala 3,Ana,12:00,Sim,Tarde,Realizada,,Bradesco,Cartão Débito,162.18
+2025-07-11,Sala 3,-,13:00,Não,Tarde,Cancelada,Falta do paciente,Bradesco,PIX,0.0
+2025-07-11,Sala 3,-,14:00,Não,Tarde,Cancelada,Outro,Unimed,Cartão Débito,0.0
+2025-07-11,Sala 3,-,15:00,Não,Tarde,Cancelada,Falta do paciente,Bradesco,Cartão Débito,0.0
+2025-07-11,Sala 3,Diego,16:00,Sim,Tarde,Realizada,,SulAmérica,Cartão Crédito,271.72
+2025-07-11,Sala 3,-,17:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Amil,Espécie,0.0
+2025-07-11,Sala 4,Diego,08:00,Sim,Manhã,Realizada,,Amil,Espécie,268.87
+2025-07-11,Sala 4,-,09:00,Não,Manhã,Cancelada,Outro,Amil,Cartão Crédito,0.0
+2025-07-11,Sala 4,Bruno,10:00,Sim,Manhã,Remarcada,Outro,Unimed,Cartão Crédito,0.0
+2025-07-11,Sala 4,Ana,11:00,Sim,Manhã,Realizada,,Particular,Cartão Débito,159.5
+2025-07-11,Sala 4,Carla,12:00,Sim,Tarde,Cancelada,Reagendado pelo profissional,SulAmérica,Cartão Débito,0.0
+2025-07-11,Sala 4,Diego,13:00,Sim,Tarde,Cancelada,Problema técnico,SulAmérica,PIX,0.0
+2025-07-11,Sala 4,-,14:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Unimed,Cartão Débito,0.0
+2025-07-11,Sala 4,Bruno,15:00,Sim,Tarde,Remarcada,Problema técnico,SulAmérica,Cartão Débito,0.0
+2025-07-11,Sala 4,Bruno,16:00,Sim,Tarde,Realizada,,Bradesco,PIX,234.71
+2025-07-11,Sala 4,-,17:00,Não,Tarde,Cancelada,Falta do paciente,SulAmérica,Cartão Débito,0.0
+2025-07-11,Sala 5,Diego,08:00,Sim,Manhã,Realizada,,Amil,Cartão Débito,129.06
+2025-07-11,Sala 5,Bruno,09:00,Sim,Manhã,Realizada,,Amil,Cartão Débito,174.24
+2025-07-11,Sala 5,Ana,10:00,Sim,Manhã,Realizada,,Bradesco,Espécie,179.7
+2025-07-11,Sala 5,-,11:00,Não,Manhã,Cancelada,Falta do paciente,Unimed,Espécie,0.0
+2025-07-11,Sala 5,Bruno,12:00,Sim,Tarde,Realizada,,Particular,Cartão Débito,251.39
+2025-07-11,Sala 5,-,13:00,Não,Tarde,Cancelada,Problema técnico,Amil,PIX,0.0
+2025-07-11,Sala 5,-,14:00,Não,Tarde,Cancelada,Outro,SulAmérica,Espécie,0.0
+2025-07-11,Sala 5,-,15:00,Não,Tarde,Cancelada,Outro,Particular,Espécie,0.0
+2025-07-11,Sala 5,Bruno,16:00,Sim,Tarde,Realizada,,Bradesco,Cartão Débito,211.68
+2025-07-11,Sala 5,Carla,17:00,Sim,Tarde,Realizada,,Unimed,Cartão Crédito,209.02
+2025-07-14,Sala 1,Ana,08:00,Sim,Manhã,Cancelada,Outro,SulAmérica,Espécie,0.0
+2025-07-14,Sala 1,Carla,09:00,Sim,Manhã,Realizada,,Particular,Cartão Crédito,293.01
+2025-07-14,Sala 1,-,10:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Bradesco,Cartão Crédito,0.0
+2025-07-14,Sala 1,-,11:00,Não,Manhã,Cancelada,Falta do paciente,Amil,Cartão Débito,0.0
+2025-07-14,Sala 1,-,12:00,Não,Tarde,Cancelada,Problema técnico,Bradesco,Cartão Débito,0.0
+2025-07-14,Sala 1,-,13:00,Não,Tarde,Cancelada,Outro,Particular,Cartão Crédito,0.0
+2025-07-14,Sala 1,Diego,14:00,Sim,Tarde,Realizada,,SulAmérica,Espécie,122.62
+2025-07-14,Sala 1,-,15:00,Não,Tarde,Cancelada,Outro,Unimed,Cartão Crédito,0.0
+2025-07-14,Sala 1,-,16:00,Não,Tarde,Cancelada,Outro,Bradesco,Cartão Débito,0.0
+2025-07-14,Sala 1,Carla,17:00,Sim,Tarde,Remarcada,Reagendado pelo profissional,Unimed,PIX,0.0
+2025-07-14,Sala 2,-,08:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Amil,Cartão Débito,0.0
+2025-07-14,Sala 2,Carla,09:00,Sim,Manhã,Realizada,,Amil,Espécie,253.66
+2025-07-14,Sala 2,-,10:00,Não,Manhã,Cancelada,Reagendado pelo profissional,SulAmérica,Cartão Débito,0.0
+2025-07-14,Sala 2,Ana,11:00,Sim,Manhã,Cancelada,Falta do paciente,Amil,Cartão Crédito,0.0
+2025-07-14,Sala 2,-,12:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Bradesco,PIX,0.0
+2025-07-14,Sala 2,Diego,13:00,Sim,Tarde,Realizada,,Particular,Cartão Crédito,123.99
+2025-07-14,Sala 2,Ana,14:00,Sim,Tarde,Realizada,,Bradesco,Cartão Crédito,114.99
+2025-07-14,Sala 2,-,15:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Bradesco,Cartão Crédito,0.0
+2025-07-14,Sala 2,-,16:00,Não,Tarde,Cancelada,Falta do paciente,Bradesco,Cartão Crédito,0.0
+2025-07-14,Sala 2,-,17:00,Não,Tarde,Cancelada,Falta do paciente,SulAmérica,Espécie,0.0
+2025-07-14,Sala 3,-,08:00,Não,Manhã,Cancelada,Outro,SulAmérica,PIX,0.0
+2025-07-14,Sala 3,-,09:00,Não,Manhã,Cancelada,Problema técnico,SulAmérica,Cartão Débito,0.0
+2025-07-14,Sala 3,-,10:00,Não,Manhã,Cancelada,Falta do paciente,Particular,Espécie,0.0
+2025-07-14,Sala 3,Diego,11:00,Sim,Manhã,Realizada,,Unimed,PIX,143.1
+2025-07-14,Sala 3,-,12:00,Não,Tarde,Cancelada,Outro,SulAmérica,PIX,0.0
+2025-07-14,Sala 3,Diego,13:00,Sim,Tarde,Realizada,,Bradesco,Cartão Crédito,160.5
+2025-07-14,Sala 3,Bruno,14:00,Sim,Tarde,Realizada,,Particular,Cartão Crédito,205.7
+2025-07-14,Sala 3,Bruno,15:00,Sim,Tarde,Cancelada,Reagendado pelo profissional,Unimed,PIX,0.0
+2025-07-14,Sala 3,Bruno,16:00,Sim,Tarde,Cancelada,Reagendado pelo profissional,Unimed,PIX,0.0
+2025-07-14,Sala 3,Diego,17:00,Sim,Tarde,Realizada,,Particular,Cartão Débito,148.18
+2025-07-14,Sala 4,-,08:00,Não,Manhã,Cancelada,Falta do paciente,SulAmérica,Espécie,0.0
+2025-07-14,Sala 4,-,09:00,Não,Manhã,Cancelada,Outro,Bradesco,PIX,0.0
+2025-07-14,Sala 4,Carla,10:00,Sim,Manhã,Realizada,,Amil,Cartão Crédito,125.63
+2025-07-14,Sala 4,-,11:00,Não,Manhã,Cancelada,Outro,SulAmérica,Cartão Crédito,0.0
+2025-07-14,Sala 4,Diego,12:00,Sim,Tarde,Realizada,,Bradesco,Cartão Débito,292.71
+2025-07-14,Sala 4,-,13:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Particular,PIX,0.0
+2025-07-14,Sala 4,Carla,14:00,Sim,Tarde,Realizada,,Unimed,Cartão Débito,218.64
+2025-07-14,Sala 4,-,15:00,Não,Tarde,Cancelada,Falta do paciente,Particular,Cartão Débito,0.0
+2025-07-14,Sala 4,-,16:00,Não,Tarde,Cancelada,Problema técnico,Amil,PIX,0.0
+2025-07-14,Sala 4,Bruno,17:00,Sim,Tarde,Realizada,,Bradesco,Cartão Crédito,158.74
+2025-07-14,Sala 5,-,08:00,Não,Manhã,Cancelada,Falta do paciente,Unimed,PIX,0.0
+2025-07-14,Sala 5,Ana,09:00,Sim,Manhã,Realizada,,Unimed,Cartão Débito,268.38
+2025-07-14,Sala 5,-,10:00,Não,Manhã,Cancelada,Problema técnico,Bradesco,PIX,0.0
+2025-07-14,Sala 5,-,11:00,Não,Manhã,Cancelada,Problema técnico,Unimed,Cartão Crédito,0.0
+2025-07-14,Sala 5,Bruno,12:00,Sim,Tarde,Realizada,,Amil,PIX,219.3
+2025-07-14,Sala 5,Ana,13:00,Sim,Tarde,Realizada,,Unimed,PIX,270.07
+2025-07-14,Sala 5,Diego,14:00,Sim,Tarde,Remarcada,Outro,Particular,Cartão Crédito,0.0
+2025-07-14,Sala 5,Diego,15:00,Sim,Tarde,Realizada,,Bradesco,Espécie,248.57
+2025-07-14,Sala 5,-,16:00,Não,Tarde,Cancelada,Falta do paciente,SulAmérica,Cartão Débito,0.0
+2025-07-14,Sala 5,Ana,17:00,Sim,Tarde,Realizada,,Unimed,PIX,266.11
+2025-07-15,Sala 1,Carla,08:00,Sim,Manhã,Realizada,,Amil,Cartão Crédito,219.63
+2025-07-15,Sala 1,Diego,09:00,Sim,Manhã,Realizada,,Particular,Cartão Débito,116.98
+2025-07-15,Sala 1,-,10:00,Não,Manhã,Cancelada,Outro,SulAmérica,Cartão Crédito,0.0
+2025-07-15,Sala 1,-,11:00,Não,Manhã,Cancelada,Outro,Unimed,Cartão Crédito,0.0
+2025-07-15,Sala 1,-,12:00,Não,Tarde,Cancelada,Problema técnico,Bradesco,Espécie,0.0
+2025-07-15,Sala 1,-,13:00,Não,Tarde,Cancelada,Falta do paciente,SulAmérica,Cartão Crédito,0.0
+2025-07-15,Sala 1,-,14:00,Não,Tarde,Cancelada,Outro,Bradesco,Cartão Débito,0.0
+2025-07-15,Sala 1,Carla,15:00,Sim,Tarde,Realizada,,Particular,Espécie,192.72
+2025-07-15,Sala 1,Carla,16:00,Sim,Tarde,Realizada,,Bradesco,PIX,203.3
+2025-07-15,Sala 1,Diego,17:00,Sim,Tarde,Realizada,,Amil,Cartão Crédito,202.94
+2025-07-15,Sala 2,Diego,08:00,Sim,Manhã,Realizada,,Amil,Espécie,299.47
+2025-07-15,Sala 2,Carla,09:00,Sim,Manhã,Remarcada,Reagendado pelo profissional,Amil,PIX,0.0
+2025-07-15,Sala 2,Bruno,10:00,Sim,Manhã,Realizada,,Unimed,Cartão Crédito,261.36
+2025-07-15,Sala 2,Bruno,11:00,Sim,Manhã,Realizada,,SulAmérica,Cartão Crédito,177.17
+2025-07-15,Sala 2,-,12:00,Não,Tarde,Cancelada,Falta do paciente,Particular,Cartão Crédito,0.0
+2025-07-15,Sala 2,Ana,13:00,Sim,Tarde,Realizada,,SulAmérica,PIX,288.97
+2025-07-15,Sala 2,Bruno,14:00,Sim,Tarde,Realizada,,Particular,Cartão Crédito,107.98
+2025-07-15,Sala 2,-,15:00,Não,Tarde,Cancelada,Falta do paciente,Amil,Espécie,0.0
+2025-07-15,Sala 2,Diego,16:00,Sim,Tarde,Realizada,,Unimed,Cartão Débito,150.07
+2025-07-15,Sala 2,-,17:00,Não,Tarde,Cancelada,Outro,SulAmérica,Espécie,0.0
+2025-07-15,Sala 3,-,08:00,Não,Manhã,Cancelada,Problema técnico,Amil,Espécie,0.0
+2025-07-15,Sala 3,-,09:00,Não,Manhã,Cancelada,Reagendado pelo profissional,Unimed,Espécie,0.0
+2025-07-15,Sala 3,-,10:00,Não,Manhã,Cancelada,Outro,Amil,Espécie,0.0
+2025-07-15,Sala 3,Bruno,11:00,Sim,Manhã,Realizada,,Particular,Espécie,103.59
+2025-07-15,Sala 3,-,12:00,Não,Tarde,Cancelada,Outro,Particular,Espécie,0.0
+2025-07-15,Sala 3,Bruno,13:00,Sim,Tarde,Cancelada,Problema técnico,Amil,Espécie,0.0
+2025-07-15,Sala 3,-,14:00,Não,Tarde,Cancelada,Falta do paciente,Unimed,Cartão Débito,0.0
+2025-07-15,Sala 3,-,15:00,Não,Tarde,Cancelada,Reagendado pelo profissional,Particular,Cartão Débito,0.0
+2025-07-15,Sala 3,Diego,16:00,Sim,Tarde,Realizada,,SulAmérica,Cartão Crédito,227.34
+2025-07-15,Sala 3,-,17:00,Não,Tarde,Cancelada,Falta do paciente,SulAmérica,Cartão Débito,0.0
+2025-07-15,Sala 4,-,08:00,Não,Manhã,Cancelada,Falta do paciente,Bradesco,Cartão Débito,0.0
+2025-07-15,Sala 4,Ana,09:00,Sim,Manhã,Realizada,,Unimed,PIX,164.4
+2025-07-15,Sala 4,Carla,10:00,Sim,Manhã,Realizada,,Amil,PIX,253.21
+2025-07-15,Sala 4,-,11:00,Não,Manhã,Cancelada,Problema técnico,SulAmérica,Espécie,0.0
+2025-07-15,Sala 4,Diego,12:00,Sim,Tarde,Realizada,,Bradesco,Cartão Débito,261.45
+2025-07-15,Sala 4,-,13:00,Não,Tarde,Cancelada,Problema técnico,Particular,PIX,0.0
+2025-07-15,Sala 4,-,14:00,Não,Tarde,Cancelada,Outro,Bradesco,Espécie,0.0
+2025-07-15,Sala 4,Ana,15:00,Sim,Tarde,Cancelada,Falta do paciente,Amil,Espécie,0.0
+2025-07-15,Sala 4,Ana,16:00,Sim,Tarde,Realizada,,Amil,Espécie,159.68
+2025-07-15,Sala 4,Diego,17:00,Sim,Tarde,Realizada,,Particular,PIX,118.56
+2025-07-15,Sala 5,Carla,08:00,Sim,Manhã,Remarcada,Problema técnico,Bradesco,PIX,0.0
+2025-07-15,Sala 5,-,09:00,Não,Manhã,Cancelada,Outro,Unimed,Cartão Débito,0.0
+2025-07-15,Sala 5,Carla,10:00,Sim,Manhã,Realizada,,Unimed,Cartão Débito,239.19
+2025-07-15,Sala 5,Bruno,11:00,Sim,Manhã,Realizada,,Amil,Cartão Débito,279.84
+2025-07-15,Sala 5,Diego,12:00,Sim,Tarde,Realizada,,Particular,Cartão Débito,297.55
+2025-07-15,Sala 5,Diego,13:00,Sim,Tarde,Remarcada,Problema técnico,Particular,Cartão Débito,0.0
+2025-07-15,Sala 5,-,14:00,Não,Tarde,Cancelada,Outro,Particular,Cartão Crédito,0.0
+2025-07-15,Sala 5,Diego,15:00,Sim,Tarde,Cancelada,Problema técnico,Amil,PIX,0.0
+2025-07-15,Sala 5,-,16:00,Não,Tarde,Cancelada,Outro,Particular,Cartão Débito,0.0
+2025-07-15,Sala 5,Carla,17:00,Sim,Tarde,Realizada,,Unimed,Espécie,191.1
