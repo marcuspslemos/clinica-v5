@@ -8,12 +8,16 @@ from reportlab.lib.units import cm
 from reportlab.lib.utils import ImageReader
 from datetime import datetime
 
-# ---------------------------
-# 1) Carregar e filtrar dados
-# ---------------------------
+# Fallback para exportação de imagens
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+
 st.set_page_config(page_title="Relatório PDF", page_icon="📄", layout="wide")
 st.title("📄 Gerar Relatório em PDF")
 
+# ---------------------------
+# 1) Carregar e filtrar dados
+# ---------------------------
 df = pd.read_csv("data/dados_ficticios.csv")
 df["Data"] = pd.to_datetime(df["Data"])
 
@@ -44,9 +48,8 @@ kpi_cols[4].metric("Top Profissional", top_prof)
 st.markdown("---")
 
 # ---------------------------
-# 3) Gráficos (Plotly)
+# 3) Gráficos (Plotly) - para visualização
 # ---------------------------
-# 3.1 Evolução de atendimentos
 evo = df_real.groupby("Data").size().reset_index(name="Total")
 fig_evo = px.line(
     evo, x="Data", y="Total", markers=True,
@@ -54,7 +57,6 @@ fig_evo = px.line(
     title="Evolução de Atendimentos"
 )
 
-# 3.2 Receita por convênio
 por_plano = df_real.groupby("Plano")["Valor"].sum().reset_index().sort_values("Valor", ascending=False)
 fig_plano = px.bar(
     por_plano, x="Plano", y="Valor", text_auto=True,
@@ -62,22 +64,78 @@ fig_plano = px.bar(
     title="Faturamento por Convênio"
 )
 
-# Render na página
 st.plotly_chart(fig_evo, use_container_width=True)
 st.plotly_chart(fig_plano, use_container_width=True)
 
 # ---------------------------
-# 4) Exportar gráficos como PNG (em memória)
+# 4) Funções de exportação
 # ---------------------------
-img_buf_evo = BytesIO()
-img_buf_plano = BytesIO()
-fig_evo.write_image(img_buf_evo, format="png", scale=2)   # requer kaleido
-fig_plano.write_image(img_buf_plano, format="png", scale=2)
-img_buf_evo.seek(0)
-img_buf_plano.seek(0)
+def plotly_to_png_bytes(fig, scale=2):
+    """
+    Tenta exportar a figura Plotly com Kaleido.
+    Se falhar (Chromium ausente), levanta RuntimeError.
+    """
+    buf = BytesIO()
+    # Pode lançar RuntimeError no Streamlit Cloud (Chromium não disponível)
+    fig.write_image(buf, format="png", scale=scale)
+    buf.seek(0)
+    return buf
+
+def line_matplotlib_png_bytes(df_line, xcol, ycol, title):
+    """
+    Gera PNG (line chart) com Matplotlib como fallback.
+    """
+    buf = BytesIO()
+    plt.figure(figsize=(8, 3))
+    plt.plot(df_line[xcol], df_line[ycol], marker="o")
+    plt.title(title)
+    plt.xlabel(xcol)
+    plt.ylabel(ycol)
+    plt.grid(True, alpha=0.3)
+    # eixo de data amigável
+    if pd.api.types.is_datetime64_any_dtype(df_line[xcol]):
+        plt.gca().xaxis.set_major_locator(mdates.AutoDateLocator())
+        plt.gca().xaxis.set_major_formatter(mdates.ConciseDateFormatter(mdates.AutoDateLocator()))
+    plt.tight_layout()
+    plt.savefig(buf, format="png", dpi=180)
+    plt.close()
+    buf.seek(0)
+    return buf
+
+def bar_matplotlib_png_bytes(df_bar, xcol, ycol, title):
+    """
+    Gera PNG (bar chart) com Matplotlib como fallback.
+    """
+    buf = BytesIO()
+    plt.figure(figsize=(8, 3))
+    plt.bar(df_bar[xcol], df_bar[ycol])
+    plt.title(title)
+    plt.xlabel(xcol)
+    plt.ylabel(ycol)
+    plt.grid(axis="y", alpha=0.3)
+    plt.tight_layout()
+    plt.savefig(buf, format="png", dpi=180)
+    plt.close()
+    buf.seek(0)
+    return buf
 
 # ---------------------------
-# 5) Montar PDF (ReportLab)
+# 5) Exportar gráficos como PNG (com fallback)
+# ---------------------------
+# Evolução
+try:
+    img_buf_evo = plotly_to_png_bytes(fig_evo, scale=2)
+except Exception:
+    img_buf_evo = line_matplotlib_png_bytes(evo, "Data", "Total", "Evolução de Atendimentos")
+
+# Convênios
+try:
+    img_buf_plano = plotly_to_png_bytes(fig_plano, scale=2)
+except Exception:
+    img_buf_plano = bar_matplotlib_png_bytes(por_plano, "Plano", "Valor", "Faturamento por Convênio")
+
+# ---------------------------
+# 6) Montar PDF (ReportLab)
 # ---------------------------
 def gerar_pdf():
     buf = BytesIO()
@@ -88,7 +146,7 @@ def gerar_pdf():
     c.setFont("Helvetica-Bold", 16)
     c.drawString(2*cm, h - 2*cm, "Relatório Mensal – Clínica de Psicologia")
     c.setFont("Helvetica", 10)
-    periodo_txt = f"Período: {data_ini.strftime('%d/%m/%Y')} a {data_fim.strftime('%d/%m/%Y')}"
+    periodo_txt = f"Período: {pd.to_datetime(data_ini).strftime('%d/%m/%Y')} a {pd.to_datetime(data_fim).strftime('%d/%m/%Y')}"
     data_geracao = datetime.now().strftime('%d/%m/%Y %H:%M')
     c.drawString(2*cm, h - 2.6*cm, periodo_txt)
     c.drawString(2*cm, h - 3.0*cm, f"Gerado em: {data_geracao}")
@@ -117,7 +175,7 @@ def gerar_pdf():
     img_h = 7*cm
     c.drawImage(evo_img, 2*cm, y_img - img_h, width=img_w, height=img_h, preserveAspectRatio=True, mask='auto')
 
-    # Quebra de página para o segundo gráfico
+    # Quebra de página
     c.showPage()
 
     # Cabeçalho da página 2
@@ -132,10 +190,11 @@ def gerar_pdf():
     c.setFont("Helvetica-Bold", 12)
     c.drawString(2*cm, h - 11.2*cm, "Resumo/Insights")
     c.setFont("Helvetica", 11)
+    media_ticket = float(df_real["Valor"].mean()) if not df_real.empty else 0.0
     insights = [
-        f"• Pico de atendimentos nos dias de maior movimento (ver evolução).",
+        "• Pico de atendimentos e sazonalidades observadas na evolução.",
         f"• Convênio líder de receita: {por_plano.iloc[0]['Plano'] if not por_plano.empty else '-'}",
-        f"• Reduzindo cancelamentos em 20%, potencial de +R$ {0.2*cancelamentos* (df_real['Valor'].mean() if not df_real.empty else 0):,.2f}/mês.",
+        f"• Reduzindo cancelamentos em 20%, potencial de +R$ {0.2*cancelamentos*media_ticket:,.2f}/mês.",
     ]
     y_ins = h - 12.0*cm
     for t in insights:
@@ -148,12 +207,12 @@ def gerar_pdf():
     return buf
 
 # ---------------------------
-# 6) Botão de download
+# 7) Botão de download
 # ---------------------------
 pdf_buffer = gerar_pdf()
 st.download_button(
     label="📥 Baixar Relatório PDF",
     data=pdf_buffer,
-    file_name=f"relatorio_clinica_{data_ini.strftime('%Y%m%d')}_{data_fim.strftime('%Y%m%d')}.pdf",
+    file_name=f"relatorio_clinica_{pd.to_datetime(data_ini).strftime('%Y%m%d')}_{pd.to_datetime(data_fim).strftime('%Y%m%d')}.pdf",
     mime="application/pdf"
 )
