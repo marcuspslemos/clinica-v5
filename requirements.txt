@@ -7,4 +7,3 @@ plotly
 openpyxl
 reportlab
 kaleido
-plotly
